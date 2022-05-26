@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan DOM</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        .kuning {
+            color:yellow;
+        }
+        .merah {
+            background-color: red;
+        }
+        .setColor {
+            width: 200px;
+            padding:2px;
+            margin: 2px auto;
+            border: 1px solid black;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ayo Latihan DOM!</h1>
+    <input type="submit" value="click!" id="tombol">
+
+    <br> <br>
+    <p>Set your color:</p>
+    <div class="setColor">
+        <p>Red:</p>
+    <input type="range" name="red" min="0" max="255">
+    <p>Green:</p>
+    <input type="range" name="green" min="0" max="255">
+    <p>Blue:</p>
+    <input type="range" name="blue" min="0" max="255">
+
+
+    </div>
+    <script src="latdom.js"></script>
+</body>
+</html>
