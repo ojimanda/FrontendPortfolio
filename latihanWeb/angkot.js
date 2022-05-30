@@ -51,3 +51,6 @@ var penumpang = ['aku', 'kamu', 'dia'];
 
 var ip = ipk(2.3, 4, 3.5);
 console.log(ip);
+
+var ip2 = ipk(3, 4, 3.5)
+console.log(ip2);
